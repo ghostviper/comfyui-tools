@@ -7,12 +7,10 @@ from core.tools.provider.builtin_tool_provider import BuiltinToolProviderControl
 
 class ComfyUIProvider(BuiltinToolProviderController):
     def _validate_credentials(self, credentials: dict[str, Any]) -> None:
+        
         try:
-            DisneyStyleCartoonTool.fork_tool_runtime(
-                runtime={
-                    "credentials": credentials,
-                }
-            )
+            if 'base_url' not in credentials or not credentials.get('base_url'):
+                raise ToolProviderCredentialValidationError("ComfyUI base url is required.")
         except Exception as e:
             raise ToolProviderCredentialValidationError(str(e))
     

@@ -23,10 +23,10 @@ default_prompt_text = r"""
 {
   "1": {
     "inputs": {
-      "ckpt_name": "SDXL\\Juggernaut_X_RunDiffusion_Hyper.safetensors",
+      "ckpt_name": "SDXL\\dreamshaperXL_lightningDPMSDE.safetensors",
       "vae_name": "Baked VAE",
       "clip_skip": -2,
-      "lora_name": "SDXL\\sdxl_lightning_4step_lora.safetensors",
+      "lora_name": "SDXL\\Little_Tinies.safetensors",
       "lora_model_strength": 1,
       "lora_clip_strength": 1,
       "positive": [
@@ -39,8 +39,8 @@ default_prompt_text = r"""
       ],
       "token_normalization": "none",
       "weight_interpretation": "comfy",
-      "empty_latent_width": 576,
-      "empty_latent_height": 576,
+      "empty_latent_width": 1024,
+      "empty_latent_height": 1024,
       "batch_size": 1
     },
     "class_type": "Efficient Loader",
@@ -51,9 +51,9 @@ default_prompt_text = r"""
   "2": {
     "inputs": {
       "seed": 851590489004658,
-      "steps": 6,
+      "steps": 12,
       "cfg": 2,
-      "sampler_name": "lcm",
+      "sampler_name": "dpmpp_sde",
       "scheduler": "karras",
       "denoise": 1,
       "preview_method": "auto",
@@ -86,10 +86,10 @@ default_prompt_text = r"""
   },
   "23": {
     "inputs": {
-      "ckpt_name": "SDXL\\Juggernaut_X_RunDiffusion_Hyper.safetensors",
+      "ckpt_name": "SDXL\\dreamshaperXL_lightningDPMSDE.safetensors",
       "vae_name": "Baked VAE",
       "clip_skip": -2,
-      "lora_name": "SDXL\\sdxl_lightning_4step_lora.safetensors",
+      "lora_name": "SDXL\\Little_Tinies.safetensors",
       "lora_model_strength": 1,
       "lora_clip_strength": 1,
       "positive": [
@@ -102,8 +102,8 @@ default_prompt_text = r"""
       ],
       "token_normalization": "none",
       "weight_interpretation": "comfy",
-      "empty_latent_width": 576,
-      "empty_latent_height": 576,
+      "empty_latent_width": 1024,
+      "empty_latent_height": 1024,
       "batch_size": 1
     },
     "class_type": "Efficient Loader",
@@ -114,9 +114,9 @@ default_prompt_text = r"""
   "24": {
     "inputs": {
       "seed": 1078544644003685,
-      "steps": 8,
+      "steps": 12,
       "cfg": 2,
-      "sampler_name": "lcm",
+      "sampler_name": "dpmpp_sde",
       "scheduler": "karras",
       "denoise": 1,
       "preview_method": "auto",
@@ -208,10 +208,10 @@ default_prompt_text = r"""
   },
   "30": {
     "inputs": {
-      "ckpt_name": "SDXL\\Juggernaut_X_RunDiffusion_Hyper.safetensors",
+      "ckpt_name": "SDXL\\dreamshaperXL_lightningDPMSDE.safetensors",
       "vae_name": "Baked VAE",
       "clip_skip": -2,
-      "lora_name": "SDXL\\sdxl_lightning_4step_lora.safetensors",
+      "lora_name": "SDXL\\Little_Tinies.safetensors",
       "lora_model_strength": 1,
       "lora_clip_strength": 1,
       "positive": [
@@ -224,8 +224,8 @@ default_prompt_text = r"""
       ],
       "token_normalization": "none",
       "weight_interpretation": "comfy",
-      "empty_latent_width": 576,
-      "empty_latent_height": 576,
+      "empty_latent_width": 1024,
+      "empty_latent_height": 1024,
       "batch_size": 1
     },
     "class_type": "Efficient Loader",
@@ -236,9 +236,9 @@ default_prompt_text = r"""
   "31": {
     "inputs": {
       "seed": 49142047746649,
-      "steps": 8,
+      "steps": 10,
       "cfg": 2,
-      "sampler_name": "lcm",
+      "sampler_name": "dpmpp_sde",
       "scheduler": "karras",
       "denoise": 1,
       "preview_method": "auto",
@@ -343,10 +343,10 @@ default_prompt_text = r"""
   },
   "46": {
     "inputs": {
-      "ckpt_name": "SDXL\\Juggernaut_X_RunDiffusion_Hyper.safetensors",
+      "ckpt_name": "SDXL\\dreamshaperXL_lightningDPMSDE.safetensors",
       "vae_name": "Baked VAE",
       "clip_skip": -2,
-      "lora_name": "SDXL\\sdxl_lightning_4step_lora.safetensors",
+      "lora_name": "SDXL\\Little_Tinies.safetensors",
       "lora_model_strength": 1,
       "lora_clip_strength": 1,
       "positive": [
@@ -359,8 +359,8 @@ default_prompt_text = r"""
       ],
       "token_normalization": "none",
       "weight_interpretation": "comfy",
-      "empty_latent_width": 576,
-      "empty_latent_height": 576,
+      "empty_latent_width": 1024,
+      "empty_latent_height": 1024,
       "batch_size": 1
     },
     "class_type": "Efficient Loader",
@@ -371,9 +371,9 @@ default_prompt_text = r"""
   "47": {
     "inputs": {
       "seed": 49142047746654,
-      "steps": 8,
+      "steps": 10,
       "cfg": 2,
-      "sampler_name": "lcm",
+      "sampler_name": "dpmpp_sde",
       "scheduler": "karras",
       "denoise": 1,
       "preview_method": "auto",
@@ -429,10 +429,10 @@ default_prompt_text = r"""
   },
   "51": {
     "inputs": {
-      "ckpt_name": "SDXL\\Juggernaut_X_RunDiffusion_Hyper.safetensors",
+      "ckpt_name": "SDXL\\dreamshaperXL_lightningDPMSDE.safetensors",
       "vae_name": "Baked VAE",
       "clip_skip": -2,
-      "lora_name": "SDXL\\sdxl_lightning_4step_lora.safetensors",
+      "lora_name": "SDXL\\Little_Tinies.safetensors",
       "lora_model_strength": 1,
       "lora_clip_strength": 1,
       "positive": [
@@ -445,8 +445,8 @@ default_prompt_text = r"""
       ],
       "token_normalization": "none",
       "weight_interpretation": "comfy",
-      "empty_latent_width": 576,
-      "empty_latent_height": 576,
+      "empty_latent_width": 1024,
+      "empty_latent_height": 1024,
       "batch_size": 1
     },
     "class_type": "Efficient Loader",
@@ -459,7 +459,7 @@ default_prompt_text = r"""
       "seed": 851590489004658,
       "steps": 8,
       "cfg": 2,
-      "sampler_name": "lcm",
+      "sampler_name": "dpmpp_sde",
       "scheduler": "karras",
       "denoise": 1,
       "preview_method": "auto",
@@ -492,10 +492,10 @@ default_prompt_text = r"""
   },
   "54": {
     "inputs": {
-      "ckpt_name": "SDXL\\Juggernaut_X_RunDiffusion_Hyper.safetensors",
+      "ckpt_name": "SDXL\\dreamshaperXL_lightningDPMSDE.safetensors",
       "vae_name": "Baked VAE",
       "clip_skip": -2,
-      "lora_name": "SDXL\\sdxl_lightning_4step_lora.safetensors",
+      "lora_name": "SDXL\\Little_Tinies.safetensors",
       "lora_model_strength": 1,
       "lora_clip_strength": 1,
       "positive": [
@@ -508,8 +508,8 @@ default_prompt_text = r"""
       ],
       "token_normalization": "none",
       "weight_interpretation": "comfy",
-      "empty_latent_width": 576,
-      "empty_latent_height": 576,
+      "empty_latent_width": 1024,
+      "empty_latent_height": 1024,
       "batch_size": 1
     },
     "class_type": "Efficient Loader",
@@ -520,9 +520,9 @@ default_prompt_text = r"""
   "55": {
     "inputs": {
       "seed": 1078544644003683,
-      "steps": 6,
+      "steps": 10,
       "cfg": 2,
-      "sampler_name": "lcm",
+      "sampler_name": "dpmpp_sde",
       "scheduler": "karras",
       "denoise": 1,
       "preview_method": "auto",
@@ -601,10 +601,10 @@ default_prompt_text = r"""
   },
   "59": {
     "inputs": {
-      "ckpt_name": "SDXL\\Juggernaut_X_RunDiffusion_Hyper.safetensors",
+      "ckpt_name": "SDXL\\dreamshaperXL_lightningDPMSDE.safetensors",
       "vae_name": "Baked VAE",
       "clip_skip": -2,
-      "lora_name": "SDXL\\sdxl_lightning_4step_lora.safetensors",
+      "lora_name": "SDXL\\Little_Tinies.safetensors",
       "lora_model_strength": 1,
       "lora_clip_strength": 1,
       "positive": [
@@ -617,8 +617,8 @@ default_prompt_text = r"""
       ],
       "token_normalization": "none",
       "weight_interpretation": "comfy",
-      "empty_latent_width": 576,
-      "empty_latent_height": 576,
+      "empty_latent_width": 1024,
+      "empty_latent_height": 1024,
       "batch_size": 1
     },
     "class_type": "Efficient Loader",
@@ -629,9 +629,9 @@ default_prompt_text = r"""
   "60": {
     "inputs": {
       "seed": 49142047746648,
-      "steps": 12,
+      "steps": 8,
       "cfg": 2,
-      "sampler_name": "lcm",
+      "sampler_name": "dpmpp_sde",
       "scheduler": "karras",
       "denoise": 1,
       "preview_method": "auto",
@@ -687,10 +687,10 @@ default_prompt_text = r"""
   },
   "63": {
     "inputs": {
-      "ckpt_name": "SDXL\\Juggernaut_X_RunDiffusion_Hyper.safetensors",
+      "ckpt_name": "SDXL\\dreamshaperXL_lightningDPMSDE.safetensors",
       "vae_name": "Baked VAE",
       "clip_skip": -2,
-      "lora_name": "SDXL\\sdxl_lightning_4step_lora.safetensors",
+      "lora_name": "SDXL\\Little_Tinies.safetensors",
       "lora_model_strength": 1,
       "lora_clip_strength": 1,
       "positive": [
@@ -703,8 +703,8 @@ default_prompt_text = r"""
       ],
       "token_normalization": "none",
       "weight_interpretation": "comfy",
-      "empty_latent_width": 576,
-      "empty_latent_height": 576,
+      "empty_latent_width": 1024,
+      "empty_latent_height": 1024,
       "batch_size": 1
     },
     "class_type": "Efficient Loader",
@@ -715,9 +715,9 @@ default_prompt_text = r"""
   "64": {
     "inputs": {
       "seed": 49142047746644,
-      "steps": 12,
+      "steps": 10,
       "cfg": 2,
-      "sampler_name": "lcm",
+      "sampler_name": "dpmpp_sde",
       "scheduler": "karras",
       "denoise": 1,
       "preview_method": "auto",
@@ -833,7 +833,7 @@ default_prompt_text = r"""
     "inputs": {
       "text_positive": "a cozy living room with a couch, a TV, and (a cat sleeping on a rug). A person is seen entering the room.",
       "text_negative": "bad anatomy",
-      "milehigh": "Disney Animation_Animation",
+      "milehigh": "Animation",
       "log_prompt": false
     },
     "class_type": "MilehighStyler",
@@ -845,7 +845,7 @@ default_prompt_text = r"""
     "inputs": {
       "text_positive": "girl walks towards the couch, but sees something on the floor.\nfloor with torn pieces of papers",
       "text_negative": "bad anatomy",
-      "milehigh": "Disney Animation_Animation",
+      "milehigh": "Animation",
       "log_prompt": false
     },
     "class_type": "MilehighStyler",
@@ -857,7 +857,7 @@ default_prompt_text = r"""
     "inputs": {
       "text_positive": "Close-up of the floor. It's a torn piece of paper with a message: :you forgot to buy cat treats!\" scribbled on it.",
       "text_negative": "bad anatomy",
-      "milehigh": "Disney Animation_Animation",
+      "milehigh": "Animation",
       "log_prompt": false
     },
     "class_type": "MilehighStyler",
@@ -869,7 +869,7 @@ default_prompt_text = r"""
     "inputs": {
       "text_positive": "girl looks puzzled, then glances at the cat, who's now awake and staring at them.",
       "text_negative": "bad anatomy",
-      "milehigh": "Disney Animation_Animation",
+      "milehigh": "Animation",
       "log_prompt": false
     },
     "class_type": "MilehighStyler",
@@ -881,7 +881,7 @@ default_prompt_text = r"""
     "inputs": {
       "text_positive": "girl is now in the kitchen and opening a box from the pantry with a box in the hand",
       "text_negative": "bad anatomy",
-      "milehigh": "Disney Animation_Animation",
+      "milehigh": "Animation",
       "log_prompt": false
     },
     "class_type": "MilehighStyler",
@@ -893,7 +893,7 @@ default_prompt_text = r"""
     "inputs": {
       "text_positive": "girl grabs a handful of treats and offer it to the cat in the home",
       "text_negative": "bad fingers, bad hands, malformed hands, multiple hands",
-      "milehigh": "Disney Animation_Animation",
+      "milehigh": "Animation",
       "log_prompt": false
     },
     "class_type": "MilehighStyler",
@@ -905,7 +905,7 @@ default_prompt_text = r"""
     "inputs": {
       "text_positive": "girl offer the treat to the cat",
       "text_negative": "bad anatomy",
-      "milehigh": "Disney Animation_Animation",
+      "milehigh": "Animation",
       "log_prompt": false
     },
     "class_type": "MilehighStyler",
@@ -917,7 +917,7 @@ default_prompt_text = r"""
     "inputs": {
       "text_positive": "cat seeing happily ",
       "text_negative": "bad anatomy",
-      "milehigh": "Disney Animation_Animation",
+      "milehigh": "Animation",
       "log_prompt": false
     },
     "class_type": "MilehighStyler",
@@ -987,6 +987,26 @@ class DisneyStyleCartoonTool(BuiltinTool):
         
         prompt = json.loads(default_prompt_text)
 
+        model = tool_parameters.get('model', '')
+        if model:
+            for node in [1,23,30,46,51,54,59,63]:
+                prompt[str(node)]["inputs"]["ckpt_name"] = model
+
+        lora_model = tool_parameters.get('lora', '')
+        if lora_model:
+            for node in [1,23,30,46,51,54,59,63]:
+                prompt[str(node)]["inputs"]["lora_name"] = lora_model
+
+        width = tool_parameters.get('width', '')
+        if width:
+            for node in [1,23,30,46,51,54,59,63]:
+                prompt[str(node)]["inputs"]["empty_latent_width"] = width
+
+        height = tool_parameters.get('height', '')
+        if height:
+            for node in [1,23,30,46,51,54,59,63]:
+                prompt[str(node)]["inputs"]["empty_latent_height"] = height
+
         topic = tool_parameters.get('topic', '')
         if topic:
             prompt["34"]["inputs"]["header_text"] = topic
@@ -1053,9 +1073,67 @@ class DisneyStyleCartoonTool(BuiltinTool):
             return self.create_text_message(f"JSON decode error: {str(e)}")
         except Exception as e:
             return self.create_text_message(f"Failed to process the image: {traceback.format_exc()} {str(e)}")
+        
+    def get_models(self) -> list[str]:
+        """
+            get sd models
+        """
+        try:
+            base_url = self.runtime.credentials.get('base_url', None)
+            if not base_url:
+                return [], []
+            api_url = str(URL(base_url) / 'object_info')
+            response = get(url=api_url, timeout=3600)
+            if response.status_code != 200:
+                return [], []
+            else:
+                json_data = response.json()
+                models = json_data["CheckpointLoaderSimple"]["input"]["required"]["ckpt_name"][0]
+                lora_models = json_data["LoraLoader"]["input"]["required"]["lora_name"][0]
+                return models, lora_models
+        except Exception as e:
+            return [], []
 
     def get_runtime_parameters(self) -> list[ToolParameter]:
-        parameters = [
+        
+        parameters = []
+        ## 加载模型
+        models, lora_models = self.get_models()
+        if models and lora_models:
+            parameters += [
+                ToolParameter(name='model',
+                    label=I18nObject(en_US='model', zh_Hans='sd 模型'),
+                    human_description=I18nObject(
+                      en_US='Model of Stable Diffusion, you can check the official documentation of Stable Diffusion',
+                      zh_Hans='Stable Diffusion 的模型，您可以查看 Stable Diffusion 的官方文档',
+                    ),
+                    type=ToolParameter.ToolParameterType.SELECT,
+                    form=ToolParameter.ToolParameterForm.FORM,
+                    llm_description='Model of Stable Diffusion, you can check the official documentation of Stable Diffusion',
+                    required=True,
+                    default=models[0],
+                    options=[ToolParameterOption(
+                        value=i,
+                        label=I18nObject(en_US=i, zh_Hans=i)
+                    ) for i in models]),
+                ToolParameter(name='lora',
+                    label=I18nObject(en_US='lora', zh_Hans='lora 模型'),
+                    human_description=I18nObject(
+                      en_US='lora model',
+                      zh_Hans='lora 模型',
+                    ),
+                    type=ToolParameter.ToolParameterType.SELECT,
+                    form=ToolParameter.ToolParameterForm.FORM,
+                    llm_description='lora model',
+                    required=True,
+                    default=lora_models[0],
+                    options=[ToolParameterOption(
+                        value=i,
+                        label=I18nObject(en_US=i, zh_Hans=i)
+                    ) for i in lora_models])
+            ]
+        
+        parameters += [
             ToolParameter(name='topic',
                          label=I18nObject(en_US='topic', zh_Hans='topic'),
                          human_description=I18nObject(
@@ -1069,82 +1147,82 @@ class DisneyStyleCartoonTool(BuiltinTool):
             ToolParameter(name='text_positive_1',
                          label=I18nObject(en_US='text_positive_1', zh_Hans='text_positive_1'),
                          human_description=I18nObject(
-                             en_US='分镜文字1',
-                             zh_Hans='分镜文字1',
+                             en_US='分镜提示词1',
+                             zh_Hans='分镜提示词1',
                          ),
                          type=ToolParameter.ToolParameterType.STRING,
                          form=ToolParameter.ToolParameterForm.LLM,
-                         llm_description='分镜文字1',
+                         llm_description='分镜提示词1',
                          required=True),
             ToolParameter(name='text_positive_2',
                          label=I18nObject(en_US='text_positive_2', zh_Hans='text_positive_2'),
                          human_description=I18nObject(
-                             en_US='分镜文字2',
-                             zh_Hans='分镜文字2',
+                             en_US='分镜提示词2',
+                             zh_Hans='分镜提示词2',
                          ),
                          type=ToolParameter.ToolParameterType.STRING,
                          form=ToolParameter.ToolParameterForm.LLM,
-                         llm_description='分镜文字2',
+                         llm_description='分镜提示词2',
                          required=True),
             ToolParameter(name='text_positive_3',
                          label=I18nObject(en_US='text_positive_3', zh_Hans='text_positive_3'),
                          human_description=I18nObject(
-                             en_US='分镜文字3',
-                             zh_Hans='分镜文字3',
+                             en_US='分镜提示词3',
+                             zh_Hans='分镜提示词3',
                          ),
                          type=ToolParameter.ToolParameterType.STRING,
                          form=ToolParameter.ToolParameterForm.LLM,
-                         llm_description='分镜文字3',
+                         llm_description='分镜提示词3',
                          required=True),
             ToolParameter(name='text_positive_4',
                          label=I18nObject(en_US='text_positive_4', zh_Hans='text_positive_4'),
                          human_description=I18nObject(
-                             en_US='分镜文字4',
-                             zh_Hans='分镜文字4',
+                             en_US='分镜提示词4',
+                             zh_Hans='分镜提示词4',
                          ),
                          type=ToolParameter.ToolParameterType.STRING,
                          form=ToolParameter.ToolParameterForm.LLM,
-                         llm_description='分镜文字4',
+                         llm_description='分镜提示词4',
                          required=True),
             ToolParameter(name='text_positive_5',
                          label=I18nObject(en_US='text_positive_5', zh_Hans='text_positive_5'),
                          human_description=I18nObject(
-                             en_US='分镜文字5',
-                             zh_Hans='分镜文字5',
+                             en_US='分镜提示词5',
+                             zh_Hans='分镜提示词5',
                          ),
                          type=ToolParameter.ToolParameterType.STRING,
                          form=ToolParameter.ToolParameterForm.LLM,
-                         llm_description='分镜文字5',
+                         llm_description='分镜提示词5',
                          required=True),
             ToolParameter(name='text_positive_6',
                          label=I18nObject(en_US='text_positive_6', zh_Hans='text_positive_6'),
                          human_description=I18nObject(
-                             en_US='分镜文字6',
-                             zh_Hans='分镜文字6',
+                             en_US='分镜提示词6',
+                             zh_Hans='分镜提示词6',
                          ),
                          type=ToolParameter.ToolParameterType.STRING,
                          form=ToolParameter.ToolParameterForm.LLM,
-                         llm_description='分镜文字6',
+                         llm_description='分镜提示词6',
                          required=True),
             ToolParameter(name='text_positive_7',
                          label=I18nObject(en_US='text_positive_7', zh_Hans='text_positive_7'),
                          human_description=I18nObject(
-                             en_US='分镜文字7',
-                             zh_Hans='分镜文字7',
+                             en_US='分镜提示词7',
+                             zh_Hans='分镜提示词7',
                          ),
                          type=ToolParameter.ToolParameterType.STRING,
                          form=ToolParameter.ToolParameterForm.LLM,
-                         llm_description='分镜文字7',
+                         llm_description='分镜提示词7',
                          required=True),
             ToolParameter(name='text_positive_8',
                          label=I18nObject(en_US='text_positive_8', zh_Hans='text_positive_8'),
                          human_description=I18nObject(
-                             en_US='分镜文字8',
-                             zh_Hans='分镜文字8',
+                             en_US='分镜提示词8',
+                             zh_Hans='分镜提示词8',
                          ),
                          type=ToolParameter.ToolParameterType.STRING,
                          form=ToolParameter.ToolParameterForm.LLM,
-                         llm_description='分镜文字8',
+                         llm_description='分镜提示词8',
                          required=True),
             ToolParameter(name='text_bottom_1',
                          label=I18nObject(en_US='text_bottom_1', zh_Hans='text_bottom_1'),
@@ -1226,4 +1304,5 @@ class DisneyStyleCartoonTool(BuiltinTool):
                          form=ToolParameter.ToolParameterForm.LLM,
                          llm_description='对话8',
                          required=True)]
+        
         return parameters

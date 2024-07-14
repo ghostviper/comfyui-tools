@@ -3,11 +3,11 @@ identity:
   name: disney_style_cartoon
   label:
     en_US: DisneyStyleCartoon
-    zh_Hans: 迪士尼风格动漫
+    zh_Hans: 8格漫画生成器
   description:
     en_US: Disney Style Cartoon Image
-    zh_Hans: 迪士尼风格动漫图片生成
-  icon: text2img.svg
+    zh_Hans: 8格漫画生成器
+  icon: comic.svg
   tags:
     - image
 description:
@@ -17,6 +17,60 @@ description:
     pt_BR: A tool for generating disney style cartoon image which can be deployed locally, you can use ComfyUI to deploy it.
   llm: draw the image you want based on your prompt.
 parameters:
+  - name: model
+    type: string
+    required: false
+    label:
+      en_US: model
+      zh_Hans: sd 模型
+      pt_BR: model
+    human_description:
+      en_US: model
+      zh_Hans: sd 模型
+      pt_BR: model
+    llm_description: model
+    form: form
+  - name: lora
+    type: string
+    required: false
+    label:
+      en_US: lora
+      zh_Hans: lora 模型
+      pt_BR: lora
+    human_description:
+      en_US: lora
+      zh_Hans: lora 模型
+      pt_BR: lora
+    llm_description: lora
+    form: form
+  - name: width
+    type: number
+    required: false
+    default: 1024
+    label:
+      en_US: empty latent width
+      zh_Hans: 生成漫画宽度
+      pt_BR: empty latent width
+    human_description:
+      en_US: empty latent width
+      zh_Hans: 生成漫画宽度
+      pt_BR: empty latent width
+    llm_description: empty latent width
+    form: llm
+  - name: height
+    type: number
+    required: false
+    default: 1024
+    label:
+      en_US: empty latent height
+      zh_Hans: 生成漫画高度
+      pt_BR: empty latent height
+    human_description:
+      en_US: empty latent height
+      zh_Hans: 生成漫画高度
+      pt_BR: empty latent height
+    llm_description: empty latent height
+    form: llm
   - name: topic
     type: string
     required: false
