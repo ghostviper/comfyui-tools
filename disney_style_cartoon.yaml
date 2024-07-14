@@ -1,0 +1,294 @@
+identity:
+  author: Ghostviper
+  name: disney_style_cartoon
+  label:
+    en_US: DisneyStyleCartoon
+    zh_Hans: 8格漫画生成器
+  description:
+    en_US: Disney Style Cartoon Image
+    zh_Hans: 8格漫画生成器
+  icon: comic.svg
+  tags:
+    - image
+description:
+  human:
+    en_US: A tool for generating disney style cartoon image which can be deployed locally, you can use ComfyUI to deploy it.
+    zh_Hans: 一个可以生成迪士尼风格动漫的工作流，您可以使用 ComfyUI 来部署它。
+    pt_BR: A tool for generating disney style cartoon image which can be deployed locally, you can use ComfyUI to deploy it.
+  llm: draw the image you want based on your prompt.
+parameters:
+  - name: model
+    type: string
+    required: false
+    label:
+      en_US: model
+      zh_Hans: sd 模型
+      pt_BR: model
+    human_description:
+      en_US: model
+      zh_Hans: sd 模型
+      pt_BR: model
+    llm_description: model
+    form: form
+  - name: lora
+    type: string
+    required: false
+    label:
+      en_US: lora
+      zh_Hans: lora 模型
+      pt_BR: lora
+    human_description:
+      en_US: lora
+      zh_Hans: lora 模型
+      pt_BR: lora
+    llm_description: lora
+    form: form
+  - name: width
+    type: number
+    required: false
+    default: 1024
+    label:
+      en_US: empty latent width
+      zh_Hans: 生成漫画宽度
+      pt_BR: empty latent width
+    human_description:
+      en_US: empty latent width
+      zh_Hans: 生成漫画宽度
+      pt_BR: empty latent width
+    llm_description: empty latent width
+    form: llm
+  - name: height
+    type: number
+    required: false
+    default: 1024
+    label:
+      en_US: empty latent height
+      zh_Hans: 生成漫画高度
+      pt_BR: empty latent height
+    human_description:
+      en_US: empty latent height
+      zh_Hans: 生成漫画高度
+      pt_BR: empty latent height
+    llm_description: empty latent height
+    form: llm
+  - name: topic
+    type: string
+    required: false
+    label:
+      en_US: topic
+      zh_Hans: 漫画主题
+      pt_BR: topic
+    human_description:
+      en_US: topic
+      zh_Hans: 漫画主题
+      pt_BR: topic
+    llm_description: topic
+    form: llm
+  - name: text_positive_1
+    type: string
+    required: false
+    label:
+      en_US: text_positive_1
+      zh_Hans: 分镜提示词1
+      pt_BR: text_positive_1
+    human_description:
+      en_US: text_positive_1
+      zh_Hans: 分镜提示词1
+      pt_BR: text_positive_1
+    llm_description: text_positive_1
+    form: llm
+  - name: text_positive_2
+    type: string
+    required: false
+    label:
+      en_US: text_positive_2
+      zh_Hans: 分镜提示词2
+      pt_BR: text_positive_2
+    human_description:
+      en_US: text_positive_2
+      zh_Hans: 分镜提示词1
+      pt_BR: text_positive_2
+    llm_description: text_positive_2
+    form: llm
+  - name: text_positive_3
+    type: string
+    required: false
+    label:
+      en_US: text_positive_3
+      zh_Hans: 分镜提示词3
+      pt_BR: text_positive_3
+    human_description:
+      en_US: text_positive_3
+      zh_Hans: 分镜提示词3
+      pt_BR: text_positive_3
+    llm_description: text_positive_3
+    form: llm
+  - name: text_positive_4
+    type: string
+    required: false
+    label:
+      en_US: text_positive_4
+      zh_Hans: 分镜提示词4
+      pt_BR: text_positive_4
+    human_description:
+      en_US: text_positive_4
+      zh_Hans: 分镜提示词4
+      pt_BR: text_positive_4
+    llm_description: text_positive_4
+    form: llm
+  - name: text_positive_5
+    type: string
+    required: false
+    label:
+      en_US: text_positive_5
+      zh_Hans: 分镜提示词5
+      pt_BR: text_positive_5
+    human_description:
+      en_US: text_positive_5
+      zh_Hans: 分镜提示词5
+      pt_BR: text_positive_5
+    llm_description: text_positive_5
+    form: llm
+  - name: text_positive_6
+    type: string
+    required: false
+    label:
+      en_US: text_positive_6
+      zh_Hans: 分镜提示词6
+      pt_BR: text_positive_6
+    human_description:
+      en_US: text_positive_6
+      zh_Hans: 分镜提示词6
+      pt_BR: text_positive_6
+    llm_description: text_positive_6
+    form: llm
+  - name: text_positive_7
+    type: string
+    required: false
+    label:
+      en_US: text_positive_7
+      zh_Hans: 分镜提示词7
+      pt_BR: text_positive_7
+    human_description:
+      en_US: text_positive_7
+      zh_Hans: 分镜提示词7
+      pt_BR: text_positive_7
+    llm_description: text_positive_7
+    form: llm
+  - name: text_positive_8
+    type: string
+    required: false
+    label:
+      en_US: text_positive_8
+      zh_Hans: 分镜提示词8
+      pt_BR: text_positive_8
+    human_description:
+      en_US: text_positive_8
+      zh_Hans: 分镜提示词8
+      pt_BR: text_positive_8
+    llm_description: text_positive_8
+    form: llm
+  - name: text_bottom_1
+    type: string
+    required: false
+    label:
+      en_US: Text Bottom 1
+      zh_Hans: 对话1
+      pt_BR: Text Bottom 1
+    human_description:
+      en_US: Text Bottom prompt 1
+      zh_Hans: 对话1
+      pt_BR: Text Bottom prompt 1
+    llm_description: Text Bottom prompt 1
+    form: llm
+  - name: text_bottom_2
+    type: string
+    required: false
+    label:
+      en_US: Text Bottom 2
+      zh_Hans: 对话2
+      pt_BR: Text Bottom 2
+    human_description:
+      en_US: Text Bottom prompt 2
+      zh_Hans: 对话2
+      pt_BR: Text Bottom prompt 2
+    llm_description: Text Bottom prompt 2
+    form: llm
+  - name: text_bottom_3
+    type: string
+    required: false
+    label:
+      en_US: Text Bottom 3
+      zh_Hans: 对话3
+      pt_BR: Text Bottom 3
+    human_description:
+      en_US: Text Bottom prompt 3
+      zh_Hans: 对话3
+      pt_BR: Text Bottom prompt 3
+    llm_description: Text Bottom prompt 3
+    form: llm
+  - name: text_bottom_4
+    type: string
+    required: false
+    label:
+      en_US: Text Bottom 4
+      zh_Hans: 对话4
+      pt_BR: Text Bottom 4
+    human_description:
+      en_US: Text Bottom prompt 4
+      zh_Hans: 对话4
+      pt_BR: Text Bottom prompt 4
+    llm_description: Text Bottom prompt 4
+    form: llm
+  - name: text_bottom_5
+    type: string
+    required: false
+    label:
+      en_US: Text Bottom 5
+      zh_Hans: 对话5
+      pt_BR: Text Bottom 5
+    human_description:
+      en_US: Text Bottom prompt 5
+      zh_Hans: 对话5
+      pt_BR: Text Bottom prompt 5
+    llm_description: Text Bottom prompt 5
+    form: llm
+  - name: text_bottom_6
+    type: string
+    required: false
+    label:
+      en_US: Text Bottom 6
+      zh_Hans: 对话6
+      pt_BR: Text Bottom 6
+    human_description:
+      en_US: Text Bottom prompt 6
+      zh_Hans: 对话6
+      pt_BR: Text Bottom prompt 6
+    llm_description: Text Bottom prompt 6
+    form: llm
+  - name: text_bottom_7
+    type: string
+    required: false
+    label:
+      en_US: Text Bottom 7
+      zh_Hans: 对话7
+      pt_BR: Text Bottom 7
+    human_description:
+      en_US: Text Bottom prompt 7
+      zh_Hans: 对话7
+      pt_BR: Text Bottom prompt 7
+    llm_description: Text Bottom prompt 7
+    form: llm
+  - name: text_bottom_8
+    type: string
+    required: false
+    label:
+      en_US: Text Bottom 8
+      zh_Hans: 对话8
+      pt_BR: Text Bottom 8
+    human_description:
+      en_US: Text Bottom prompt 8
+      zh_Hans: 对话8
+      pt_BR: Text Bottom prompt 8
+    llm_description: Text Bottom prompt 8
+    form: llm
